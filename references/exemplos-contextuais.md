@@ -1,66 +1,75 @@
-# Exemplos e exceções — Humanizar Natural 1.2.0
+# Exemplos contextuais e contracasos
 
-Use somente quando uma escolha de registro, fidelidade ou escopo gerar dúvida. **Não copie fórmulas mecanicamente.**
+## Caso 1: coordenadoras de escola
+**Entrada:** “Faça um e-mail para Gislay e Juliane, dizendo que amanhã não irei à escola por causa de uma consulta.”
 
-## 1. E-mail cotidiano
+**Saída adequada:**
 
-**Pedido:** escrever a uma coordenadora avisando de uma ausência amanhã por uma consulta.
+Assunto: Aviso de ausência
 
-- Melhor: “Olá! Queria avisar que amanhã não vou conseguir ir à escola porque tenho uma consulta. Obrigado pela compreensão.”
-- Menos adequado: “Venho por meio deste comunicar a impossibilidade de meu comparecimento à instituição de ensino em virtude de compromisso previamente agendado.”
-- Não acrescentar: atestado, hora da consulta, autorização de ausência, pedido de desculpas ou nome do médico não mencionados.
+Olá, Gislay e Juliane!
 
-## 2. Formalidade justificada
+Queria avisar que amanhã não vou conseguir ir à escola porque tenho uma consulta.
 
-**Pedido:** revisar aviso oficial de uma prova.
+Obrigado pela compreensão.
 
-- Preserve: “É obrigatória a apresentação de documento oficial com foto.”
-- Não enfraqueça: “Seria bom levar um documento.”
-- Não troque “deverá” por “pode” ou “é obrigatório” por “seria recomendado”.
+**Não invente:** a consulta ser médica, o nome de quem assina, promessa de apresentar atestado, justificativa sobre urgência.
 
-## 3. Comunicação profissional direta
+## Caso 2: status para colega
+**Entrada:** “Avise que só falta contar os produtos cadastrados.”
 
-**Original:** “Olá, equipe. Os relatórios de abril estão prontos. Podem conferir até sexta-feira?”
+**Adequada:** “Os produtos já foram cadastrados. Só falta conferir a quantidade total.”
 
-- Adequado: manter, ou fazer ajustes pontuais de pontuação.
-- Inadequado: “Prezados colaboradores, venho cordialmente solicitar a gentileza de proceder com a devida análise dos documentos supracitados”.
+Não afirme que os produtos foram conferidos, publicados ou aprovados.
 
-## 4. Mensagem com incerteza
+## Caso 3: promessa versus possibilidade
+**Entrada:** “Talvez eu consiga terminar na terça, se o cliente responder.”
 
-**Original:** “Talvez eu consiga enviar a primeira versão na segunda. Confirmo amanhã.”
+**Adequada:** “Se o cliente responder, talvez eu consiga terminar na terça.”
 
-- Correto: “Posso conseguir enviar a primeira versão na segunda; confirmo amanhã.”
-- Incorreto: “Vou enviar a versão final na segunda.”
-- Cuidado: não trocar “primeira versão” por “versão final” nem retirar “talvez”.
+**Incorreta:** “Vou terminar na terça.”
 
-## 5. Documentação para desenvolvedores
+## Caso 4: texto já adequado
+**Entrada:** “Oi! Você consegue me enviar o PDF ainda hoje?”
 
-**Original:** “Instale as dependências com `npm ci` e depois execute `npm run dev`.”
+**Adequada:** manter inalterado, salvo exigência específica de mudança de tom.
 
-- Correto: “Para iniciar o projeto, rode `npm ci` e, em seguida, `npm run dev`.”
-- Incorreto: “Para iniciar o projeto, rode `npm install` e `npm start`.”
-- Não alterar caminhos, extensões, nomes de variável ou APIs para parecer natural.
+## Caso 5: documentação
+**Entrada:** “Primeiro execute `npm ci`; depois, `npm run dev`.”
 
-## 6. Redação escolar
+**Adequada:** “Rode `npm ci` e, em seguida, `npm run dev`.”
 
-Priorize fluidez e organização, sem simplificar conceitos essenciais nem impor um tom de anúncio. Não invente fatos, depoimentos, dados ou referências para “humanizar”. Se forem exigidos três parágrafos, preserve exatamente três. Se houver material-base, mantenha seu conteúdo central.
+**Incorreta:** “Rode `npm install` e `npm start`.”
 
-## 7. Texto de divulgação
+## Caso 6: Discord — apresentação de projeto
+**Entrada:** “Apresente uma skill de revisão PT-BR para desenvolvedores, sem hype e sem prometer detector de IA.”
 
-**Entrada:** “Aplicativo de tarefas com lista e lembretes.”
+**Adequada:** “A Humanizar Natural é uma skill de revisão e redação em PT-BR. Ela orienta agentes a ajustar tom, concisão e vocabulário conforme o contexto, preservando fatos e comandos. Funciona com ferramentas que carregam `SKILL.md`; o resultado depende do agente e deve ser testado.”
 
-- Adequado: “Organize suas tarefas em uma lista e configure lembretes.”
-- Inadequado: “A solução revolucionária que transformará sua produtividade com inteligência inigualável.”
-- Não invente integrações, uso offline, criptografia, velocidade ou avaliações.
+## Caso 7: edital
+**Entrada:** “Simplifique sem mudar a obrigação: O candidato deverá comparecer ao local indicado com documento com foto.”
 
-## 8. Texto que já está bom
+**Adequada:** “O candidato deve ir ao local indicado com um documento com foto.”
 
-**Original:** “Oi! Você consegue me mandar o arquivo hoje?”
+**Incorreta:** “O candidato pode ir ao local com qualquer documento.”
 
-Se a tarefa é somente “deixe mais natural”, manter a frase é uma solução válida. Alterá-la por “Gostaria de solicitar que encaminhasse o arquivo na presente data” piora o resultado.
+## Caso 8: opinião
+**Entrada:** “Escreva uma opinião equilibrada sobre o uso de IA na escola, sem fingir experiência própria.”
 
-## 9. Dúvidas sobre tom
+**Adequada:** “A IA pode ajudar nos estudos, mas não substitui a leitura e o raciocínio do estudante. Usar respostas prontas sem conferir o conteúdo pode prejudicar o aprendizado.”
 
-- Se o usuário diz “faça um e-mail para a professora dizendo que falto amanhã”, escreva diretamente com cortesia e clareza.
-- Se o usuário pede “crie a mensagem mais apropriada para resolver um conflito delicado” e a relação entre as partes muda radicalmente o texto, faça uma pergunta objetiva.
-- Não pergunte a idade, escola, cidade, ocupação ou outras informações pessoais para decidir o registro.
+**Incorreta:** “Como aluno, vivi isso e aprendi...” (fato pessoal inventado).
+
+## Caso 9: tom de mensagem informal
+**Entrada:** “Fala com um amigo sobre a reunião de amanhã, educado e natural.”
+
+**Adequada:** “Oi! A reunião continua marcada para amanhã?”
+
+**Incorreta:** “Prezado interlocutor, venho solicitar atualização do agendamento.”
+
+## Caso 10: preservar dados
+**Entrada:** “Dos 90 produtos, 18 precisam de revisão.”
+
+**Adequada:** “Dos 90 produtos, 18 ainda precisam ser revisados.”
+
+**Incorreta:** “Alguns dos quase 100 produtos precisam de ajustes.”

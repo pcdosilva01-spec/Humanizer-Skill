@@ -1,0 +1,6 @@
+{
+  "name": "humanizar-natural-ptbr",
+  "description": "Skill de escrita e revisão contextual em português brasileiro",
+  "version": "2.0.0",
+  "skills": "./skills/"
+}

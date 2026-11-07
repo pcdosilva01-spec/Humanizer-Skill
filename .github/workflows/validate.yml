@@ -1,0 +1,19 @@
+name: Validar Humanizar Natural
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar integridade e testes
+        run: |
+          python3 scripts/validar_pacote.py
+          python3 scripts/checar_resultados.py --self-test
+          bash -n scripts/instalar.sh
+          bash -n publicar-humanizer.sh

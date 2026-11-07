@@ -1,0 +1,6 @@
+{
+  "name": "humanizar-natural-ptbr",
+  "version": "2.0.0",
+  "description": "Skills de escrita e revisão em português brasileiro",
+  "contextFileName": "GEMINI.md"
+}
